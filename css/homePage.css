@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;500;700&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.full-image{
+    background: linear-gradient(rgba(26, 26, 26, 0.84),rgba(0, 0, 2, 0.7)), url(img/restaurant-interior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+
+
+/*slider style start*/
+#item{
+    background: linear-gradient(rgba(9, 5, 54, 0.395),rgba(5, 4, 46, 0.7));
+    
+}
+#item img{
+    opacity: 0.8;
+}
+
+.caption{
+	top:50%;
+	transform:translateY(-50%);
+	background:rgba (0,0,0,0.35);
+	}
+
+.content{
+    text-align: left;
+    margin-left: 50px;
+}
+.content h1{
+    font-family: kaushan script;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.content p{
+    font-family: kaushan script;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/*slider style end*/
+
+/*intro style start*/
+.intro-section{
+    background-color: rgba(255, 255, 255, 0.89);   
+    color: black;
+}
+
+.intro-section .intro .intro-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.image1 .intro1{
+    height: 500px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.image2 .intro2{
+    height: 500px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.intro-section .intro-text{
+    background-color: transparent;
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-right: 80px;
+    border: 1px solid transparent;
+    width: 600px;
+    height: 500px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.intro-section .intro-text h1{
+    font-family: kaushan script;
+    padding-top: 25px;
+   font-size: 36px;
+}
+
+.intro-section .intro-text h3{
+    font-family: kaushan script;
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+.intro-section .intro-text p{
+    padding-top: 30px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*intro style end*/
+
+/*menu section start*/
+.menu-section a{
+    text-decoration: none;
+}
+.menu-section .menus h1{
+    font-family: kaushan script;
+    text-align: center;
+    font-size: 48px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.menu-section .menus h3{
+    font-family: kaushan script;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.menu-section .menu-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu-section .menu-content .menucard{
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 2px;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+
+.menu-section .menu-content .menucard h1{
+    font-family: kaushan script;
+        text-align: center;
+        margin-top: 100px;
+        text-decoration: none;
+}
+
+.menu-section .menu-content .menucard .special{
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url(img/Special.png);
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.menu-section .menu-content .menucard .italian{
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url(img/Italian.png);
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.menu-section .menu-content .menucard .mexican{
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url(img/mexican.png);
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.menu-section .menu-content .menucard .asian{
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url(img/Asian.png);
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.menu-section .menu-content .menucard .deserts{
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url(img/Desert.png);
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.menu-section .menu-content .menucard .drinks{
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url(img/Drink.png);
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.menu-section .menucard:hover{
+    transform: scale(1.1);
+    background-color: rgba(147, 148, 150, 0.361);
+}
+
+/*menu section end*/
+
+
+/*gallery section start*/
+.gallery{
+    background-color: black;
+}
+
+.gallery h1{
+    font-family: kaushan script;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(238, 238, 238);
+}
+
+.gallery .gallery-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-color: rgba(147, 148, 150, 0.361);
+    cursor: pointer;
+}
+
+.popupimg{
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+    background-color: rgb(237, 233, 233);
+}
+
+.popupimg img{
+    margin-top: 100px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid aliceblue;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.popupimg span{
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    font-size: 60px;
+    color: rgb(254, 251, 251);
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+/*services section start*/
+.services{
+    background-color: rgba(0, 0, 0, 0.539);
+}
+
+.services h1{
+    font-family: kaushan script;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(238, 238, 238);
+}
+
+.services .services-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.services .card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.services .card img{
+    width: 300px;
+    height: 200px;
+}
+
+.services .card h2{
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.services .card h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.services .card p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.services .card:hover{
+    transform: scale(1.1);
+    background-color: rgba(147, 148, 150, 0.361);
+    cursor: pointer;
+    color: aliceblue;
+}
+
+/*media codes*/
+
+@media (max-width:768px) {
+
+    .intro-section .intro .intro-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image1 .intro1{
+        height: 300;
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+
+    .image2 .intro2{
+        height: 300;
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-bottom: 50px;
+    }
+
+    .intro-section .intro-text{
+        background-color: transparent;
+        border-radius: 25px;
+        margin-left: 100px;
+        margin-right: 80px;
+        border: 1px solid transparent;
+        width: 600px;
+        height: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    /*menu section*/
+    .menu-section .menu-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 200px;
+    }
+
+    /*services section*/
+    .services .services-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 200px;
+    }
+
+    /*gallery section*/
+    .gallery .gallery-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 200px;
+    }
+
+    .gallery .popup img{
+        width: 45%;
+    }
+}

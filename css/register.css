@@ -1,0 +1,116 @@
+
+form{
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 50px;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 50px;
+    
+}
+form p{
+   font-size: 16px;
+}
+
+form .form-control{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 15px;
+}
+
+form .form-control #rpassword{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 15px;
+}
+
+form .input-control{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+form button{
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+form a:hover{
+    cursor: pointer;
+}
+
+/*registration error*/
+.error{
+    color: rgb(126, 2, 2);
+    font-size: 14px;
+}
+
+/*login form popup*/
+.registerpopup{
+    margin-top: 120px;
+    background: linear-gradient(rgba(40, 40, 40, 0.3),rgba(30, 30, 33, 0.7)), url(img/receptionists-elegant-suits-during-work-hours.jpg);
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.closeicon2{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: rgb(253, 251, 251);
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+.register{
+    text-align: center;
+    align-items: center;
+    width: 700px;
+    margin-left: 400px;
+    padding-bottom: 50px;
+}
+
+.registerpopup-content{
+    padding-top: 100px;
+}
+.register-content{
+    margin-left: 100px;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    width: 500px;
+    background: rgba(255, 255, 255, 0.203);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.register h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+.register-content #password{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 15px;
+}
