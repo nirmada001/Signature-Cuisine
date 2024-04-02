@@ -1,0 +1,130 @@
+/*Footer*/
+footer{
+    color: aliceblue;
+    background-color: rgb(34, 33, 33);
+    margin: 0;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-section .div1{
+    height: fit-content;
+    width: 100%;
+
+}
+footer .div1-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer .icons{
+    margin-top: 40px;
+}
+
+footer .icons i{
+    padding-right: 10px;
+}
+
+footer .div2{
+    height: fit-content;
+    width: 100%;
+}
+
+footer .div2-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer .div3{
+    height: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer .div3 .copyright p{
+    text-align: center;
+}
+
+footer hr{
+    color: black;
+    border: 2px solid;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer .footer-about{
+    text-align: left;
+    width: 400px;
+}
+
+footer .footer-about h4{
+    font-size: 16px;
+}
+
+footer .text{
+    text-align: center;
+    padding-left: 10px;
+    overflow: hidden;
+}
+footer .text form{
+    text-align: justify;
+    margin-top: 0;
+}
+
+footer .text form .btn{
+    width: 400px;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+footer #subject{
+    width: 400px;
+    margin-top: 10px;
+    height: 25px;
+    background: transparent;
+    border-bottom: 1px solid white;
+}
+
+footer #name, #password{
+    width: 197px;
+    height: 25px;
+    background: transparent;
+    border-bottom: 1px solid white;
+}
+
+footer textarea{
+    color: rgb(67, 67, 67);
+    margin-top: 10px;
+    height: 25px;
+    background: transparent;
+    border-bottom: 1px solid white;
+}
+
+footer h2{
+    margin-top: 10px;
+}
+
+footer .text h2{
+    margin-top: 10px;
+}
+footer p{
+    font-size: 13px;
+}
+
+footer .div4{
+    height: fit-content;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
